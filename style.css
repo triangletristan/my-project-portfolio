@@ -102,7 +102,7 @@ body header h1{
   margin-bottom: 10px;
 }
 #machine {
-  margin-left: 80px;
+  margin: 0 auto;
   border-bottom:3px solid rgb(0,174,255);
   background-color: #698EFF;
   border-top: 3px solid rgb(0,174,255);
