@@ -36,7 +36,8 @@ header nav ul li {
   max-width: 600px;
 }
 .project {
-  margin: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
   padding: 10px;
   border-bottom:3px solid rgb(0,174,255);
   background-color: #698EFF;
@@ -73,4 +74,39 @@ body header h1{
 }
 #aboutme script{
   background-color: #698EFF;
+}
+.buttom {
+  color: #F5F5F5;
+  margin-left: 20px;
+  height: 100px;
+  font-size: 23px;
+  background-color: #698EFF;
+  border: 0px;
+  border-top: 3px solid rgb(0,174,255);
+  cursor: pointer;
+  border-radius: 4px;
+  width: 90%;
+  max-width: 600px;
+}
+#button4 {
+  border-bottom: 3px solid rgb(0,174,255);
+}
+#title_card {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+  font-size: 1.5em;
+  border:3px solid rgb(0,174,255);
+  background-color: #698EFF;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#machine {
+  margin-left: 80px;
+  border-bottom:3px solid rgb(0,174,255);
+  background-color: #698EFF;
+  border-top: 3px solid rgb(0,174,255);
+  padding:10px;
+  width: 90%;
+  max-width: 600px;
 }
