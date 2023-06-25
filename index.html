@@ -24,9 +24,11 @@
       </ul>
     </nav>
   </header>
+  <h2 id='title_card'>List of Tristan's Projects:</h2>
   <div id="project-container">
     <!-- start of project template -->
-    <div class="project">
+    <button class='buttom' id='button1' type= 'button' onclick="IsClicked(1)"> CMU Project (2020)   < </button>
+    <div class="project" id="CMU" style="display: none;">
       <img src="img/cmuproject.PNG" alt="CMU Project Image"/>
       <h2>CMU Project (2020)</h2>
       <p><a href="https://academy.cs.cmu.edu/sharing/floralWhiteDog0297">CMU Project Link</a></p>
@@ -34,7 +36,8 @@
       <div class="clear"></div>
     </div>
     <!-- end of project template -->
-    <div class="project">
+    <button class='buttom' id='button2' type= 'button' onclick="IsClicked(2)"> Driving Chaffeur Project (2022)   < </button>
+    <div class="project" id="DC" style="display: none;">
       <img src="img/drivechaffeur.PNG" alt="Drive Chaffeur Project Image"/>
       <h2>Driving Chaffeur Project (2022)</h2>
       <p><a href="https://snap.berkeley.edu/project?username=tnajarro&projectname=Drive%20Chauffeur">Driving Chaffeur Project Link</a></p>
@@ -42,14 +45,16 @@
       <div class="clear"></div>
     </div>  
   <!-- hi -->
-    <div class="project">
+    <button class='buttom' id='button3' type= 'button' onclick="IsClicked(3)"> "Grandma's House" Project (2022)   < </button>
+    <div class="project" id="GH" style="display: none;">
       <img src="img/Grandma'sHouse.png" alt="CMU Project Image"/>
       <h2>"Grandma's House" Project (2022)</h2>
       <p><a href="https://replit.com/@ser0lf/text-adventure?v=1">"Grandma's House" Project Link</a></p>
       <p>A text adventure project involving a visit to your grandmothers house. You are put here as a result of your attitudes towards your parents during the summer. Discover secrets that your grandmother has in her house to find out the truth behind everything. This project is unfinished as I only got the first part of it done.</p>
       <div class="clear"></div>
     </div>
-    <div class="project">
+    <button class='buttom' id='button4' type= 'button' onclick="IsClicked(4)"> Sharpen Project (2023)   < </button>
+    <div class="project" id="S" style="display: none;">
       <img src="img/Sharpen.png" alt="Sharpen Project Image"/>
       <h2>Sharpen Project (2023)</h2>
       <p><a href="https://snap.berkeley.edu/project?username=tnajarro&projectname=Sharpen">Sharpen Project Link</a></p>
@@ -57,5 +62,6 @@
       <div class="clear"></div>
     </div>  
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
