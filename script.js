@@ -6,10 +6,13 @@ let button3 = document.getElementById("button3");
 let GH = document.getElementById("GH");
 let button4 = document.getElementById("button4");
 let S = document.getElementById("S");
+let button5 = document.getElementById("button5");
+let K = document.getElementById("K");
 var clickbutton1 = false
 var clickbutton2 = false
 var clickbutton3 = false
 var clickbutton4 = false
+var clickbutton5 = false
 function IsClicked(number){
   if (number == 1){
     if (clickbutton1 === false){
@@ -53,6 +56,17 @@ function IsClicked(number){
       button4.innerText = 'Sharpen Project (2023)   < ';
       clickbutton4 = false;
       S.style.display ="none";
+    }
+  }
+  if (number == 5){
+    if (clickbutton5 === false){
+      button5.innerText = 'Keychain Project (2023)   v ';
+      clickbutton5 = true;
+      K.style.display ="block";
+    } else {
+      button5.innerText = 'Keychain Project (2023)   < ';
+      clickbutton5 = false;
+      K.style.display ="none";
     }
   }
 }
