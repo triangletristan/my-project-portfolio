@@ -8,11 +8,15 @@ let button4 = document.getElementById("button4");
 let S = document.getElementById("S");
 let button5 = document.getElementById("button5");
 let K = document.getElementById("K");
+let button6 = document.getElementById("button6");
+let SP = document.getElementById("SP");
 var clickbutton1 = false
 var clickbutton2 = false
 var clickbutton3 = false
 var clickbutton4 = false
 var clickbutton5 = false
+var clickbutton6 = false
+
 function IsClicked(number){
   if (number == 1){
     if (clickbutton1 === false){
@@ -67,6 +71,17 @@ function IsClicked(number){
       button5.innerText = 'Keychain Project (2023)   < ';
       clickbutton5 = false;
       K.style.display ="none";
+    }
+  }
+  if (number == 6){
+    if (clickbutton6 === false){
+      button6.innerText = 'Spongebob Train Project (2023)   v ';
+      clickbutton6 = true;
+      SP.style.display ="block";
+    } else {
+      button6.innerText = 'Spongebob Train Project (2023)   < ';
+      clickbutton6 = false;
+      SP.style.display ="none";
     }
   }
 }
