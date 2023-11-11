@@ -50,9 +50,13 @@ header nav ul li {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-
 .project h2, #aboutme h2{
   font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.project h3, #aboutme h3{
+  font-size: 1.2em;
   margin-bottom: 10px;
 }
 
@@ -110,3 +114,4 @@ body header h1{
   width: 90%;
   max-width: 600px;
 }
+
